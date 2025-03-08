@@ -2,12 +2,9 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from typing import List
 import os
-from dotenv import load_dotenv
 
-# Load API keys from the .env file
-load_dotenv()
-TOKEN = os.getenv("HF_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TOKEN = "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"
+GEMINI_API_KEY = "AIzaSyB2VFKiKj2r60XzAQk3poyf-pDrpvIwjL4"
 
 # Import necessary modules from LangChain and related packages
 from langchain_community.vectorstores.faiss import FAISS
