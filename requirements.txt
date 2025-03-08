@@ -1,0 +1,7 @@
+pydantic
+pydantic_ai 
+langchain 
+langchain_community 
+langchain-google-genai 
+faiss-cpu 
+langchain-huggingface
