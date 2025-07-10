@@ -3,8 +3,8 @@ from pydantic import BaseModel, Field
 from typing import List
 import os
 
-TOKEN = "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"
-GEMINI_API_KEY = "AIzaSyB2VFKiKj2r60XzAQk3poyf-pDrpvIwjL4"
+TOKEN = "HF_TOKEN"
+GEMINI_API_KEY = "GOOGLE_API_KEY"
 
 # Import necessary modules from LangChain and related packages
 from langchain_community.vectorstores.faiss import FAISS
